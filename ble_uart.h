@@ -32,10 +32,15 @@
 #ifndef BLE_NUS_H__
 #define BLE_NUS_H__
 
-#include "ble.h"
-#include "ble_srv_common.h"
+
 #include <stdint.h>
 #include <stdbool.h>
+#include <string.h>
+
+#include "ble.h"
+#include "ble_srv_common.h"
+#include "nordic_common.h"
+
 
 //#define NORDIC_UUID_STYLE 1
 
